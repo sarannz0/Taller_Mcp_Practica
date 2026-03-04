@@ -79,7 +79,7 @@ function buildAlterTableColumnSql(input) {
 }
 
 // ---------- MCP Server ----------
-const server = new McpServer({ name: "lab_mcp", version: "1.0.0" });
+const server = new McpServer({ name: "mcp-mysql", version: "1.0.0" });
 
 // Tool: mysql_query (CRUD + consultas)
 // Tool: mysql_query (CRUD + consultas)
